@@ -1,0 +1,42 @@
+Start testing: Nov 05 13:06 CET
+----------------------------------------------------------
+1/1 Testing: UnitShellTests
+1/1 Test: UnitShellTests
+Command: "/home/lelouerad/Documents/2A/SEPC/TP 2 Shell/tests/allShellTests.rb"
+Directory: /home/lelouerad/Documents/2A/SEPC/TP 2 Shell/build
+"UnitShellTests" start time: Nov 05 13:06 CET
+Output:
+----------------------------------------------------------
+Run options: --seed 37178
+
+# Running:
+
+.Fwc: write error
+..F.....
+
+Finished in 2.108910s, 4.7418 runs/s, 7.1127 assertions/s.
+
+  1) Failure:
+Test2InOut#test_inoutpipe [/home/lelouerad/Documents/2A/SEPC/TP 2 Shell/tests/testInOut.rb:56]:
+cat titiExpect.txt titiExpect.txt n'a pas rendu deux fois le même entier à la suite.
+Expected nil to not be nil.
+
+  2) Failure:
+Test2InOut#test_parallelisme [/home/lelouerad/Documents/2A/SEPC/TP 2 Shell/tests/testInOut.rb:69]:
+le | ne semble pas parallèle.
+Expected nil to not be nil.
+
+10 runs, 15 assertions, 2 failures, 0 errors, 0 skips
+real 3.00
+user 0.00
+sys 0.00
+echo: write error
+<end of output>
+Test time =   2.94 sec
+----------------------------------------------------------
+Test Failed.
+"UnitShellTests" end time: Nov 05 13:06 CET
+"UnitShellTests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Nov 05 13:06 CET

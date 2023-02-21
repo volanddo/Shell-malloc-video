@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="emalloc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\..\..\usr\src\gtest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memshell">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/memshell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 memshell"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memshell/fast">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/memshell" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 memshell/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="emalloc">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/libemalloc.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 emalloc"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="emalloc/fast">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/libemalloc.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 emalloc/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="alloctest">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/alloctest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 alloctest"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="alloctest/fast">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/alloctest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 alloctest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mempy">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/libmempy.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mempy"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mempy/fast">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/libmempy.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 mempy/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/src/gtest/include"/>
+					<Add directory="/usr/src/gtest"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem.c">
+			<Option target="emalloc"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem.h">
+			<Option target="emalloc"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem_internals.c">
+			<Option target="emalloc"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem_internals.h">
+			<Option target="emalloc"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem_large.c">
+			<Option target="emalloc"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem_medium.c">
+			<Option target="emalloc"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem_small.c">
+			<Option target="emalloc"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/memshell.c">
+			<Option target="memshell"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/alloctest.cc">
+			<Option target="alloctest"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/mempymodule.c">
+			<Option target="mempy"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/test_buddy.cc">
+			<Option target="alloctest"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/test_buddy.h">
+			<Option target="alloctest"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/test_generic.cc">
+			<Option target="alloctest"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/test_generic.h">
+			<Option target="alloctest"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/test_mark.cc">
+			<Option target="alloctest"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/test_run_cpp.cc">
+			<Option target="alloctest"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/test_run_cpp.h">
+			<Option target="alloctest"/>
+		</Unit>
+		<Unit filename="/usr/src/gtest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/usr/src/gtest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/../../../../../../../usr/src/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\src\gtest\"/>
+		</Unit>
+		<Unit filename="/user/7/volandd/Documents/2A/SEPC/tp1alloc/../../../../../../../usr/src/gtest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\src\gtest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

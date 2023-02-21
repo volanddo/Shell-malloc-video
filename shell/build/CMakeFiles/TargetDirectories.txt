@@ -1,0 +1,7 @@
+/user/7/volandd/Documents/2A/SEPC/tp-2-shelll/build/CMakeFiles/rebuild_cache.dir
+/user/7/volandd/Documents/2A/SEPC/tp-2-shelll/build/CMakeFiles/edit_cache.dir
+/user/7/volandd/Documents/2A/SEPC/tp-2-shelll/build/CMakeFiles/ensishell.dir
+/user/7/volandd/Documents/2A/SEPC/tp-2-shelll/build/CMakeFiles/test.dir
+/user/7/volandd/Documents/2A/SEPC/tp-2-shelll/build/CMakeFiles/package.dir
+/user/7/volandd/Documents/2A/SEPC/tp-2-shelll/build/CMakeFiles/check.dir
+/user/7/volandd/Documents/2A/SEPC/tp-2-shelll/build/CMakeFiles/package_source.dir

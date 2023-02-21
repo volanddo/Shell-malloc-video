@@ -1,0 +1,36 @@
+Start testing: Oct 03 18:10 CEST
+----------------------------------------------------------
+1/1 Testing: AllTestsAllocator
+1/1 Test: AllTestsAllocator
+Command: "/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/alloctest"
+Directory: /user/7/volandd/Documents/2A/SEPC/tp1alloc/build
+"AllTestsAllocator" start time: Oct 03 18:10 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from Mark
+[ RUN      ] Mark.mmix
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/test_mark.cc:23: Failure
+Expected equality of these values:
+  tab[1]
+    Which is: 1109571111851126601
+  knuth_mmix_one_round((unsigned long)tab) & ~(0b11UL)
+    Which is: 1109571111851126600
+[  FAILED  ] Mark.mmix (0 ms)
+[----------] 1 test from Mark (0 ms total)
+
+[----------] 7 tests from Basic
+[ RUN      ] Basic.zero
+[       OK ] Basic.zero (0 ms)
+[ RUN      ] Basic.onetinysmall
+alloctest: /user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem_internals.c:47: mark_check_and_get_alloc: Assertion `magic1 == magic2' failed.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"AllTestsAllocator" end time: Oct 03 18:10 CEST
+"AllTestsAllocator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 03 18:10 CEST

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem.h
+
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/memshell.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+mem.h
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem.h
+

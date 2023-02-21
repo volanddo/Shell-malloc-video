@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wall -Werror -std=gnu11 -I/usr/include/python3.10 -I/usr/include/x86_64-linux-gnu/python3.10 -rdynamic CMakeFiles/memshell.dir/src/memshell.c.o -o memshell  -Wl,-rpath,/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug libemalloc.so 

@@ -1,0 +1,17 @@
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/rebuild_cache.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/edit_cache.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/package_source.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/memshell.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/emalloc.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/alloctest.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/test.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/package.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/mempy.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/CMakeFiles/check.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/gtest/CMakeFiles/edit_cache.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/gtest/CMakeFiles/rebuild_cache.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/gtest/CMakeFiles/gtest.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/gtest/CMakeFiles/gtest_main.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/gtest/CMakeFiles/package_source.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/gtest/CMakeFiles/test.dir
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/build/gtest/CMakeFiles/package.dir

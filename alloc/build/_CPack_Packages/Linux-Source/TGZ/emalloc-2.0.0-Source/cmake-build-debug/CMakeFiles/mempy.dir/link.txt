@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -Wall -Werror -std=gnu11 -I/usr/include/python3.10 -I/usr/include/x86_64-linux-gnu/python3.10 -shared -Wl,-soname,libmempy.so -o libmempy.so CMakeFiles/mempy.dir/tests/mempymodule.c.o  -Wl,-rpath,/user/7/volandd/Documents/2A/SEPC/tp1alloc/cmake-build-debug libemalloc.so 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem.h
+
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem_internals.h
+stdio.h
+-
+stdlib.h
+-
+
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem_medium.c
+stdint.h
+-
+assert.h
+-
+mem.h
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem.h
+mem_internals.h
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem_internals.h
+

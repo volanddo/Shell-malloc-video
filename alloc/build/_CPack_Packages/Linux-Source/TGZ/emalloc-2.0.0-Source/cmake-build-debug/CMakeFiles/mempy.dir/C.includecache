@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem.h
+
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/tests/mempymodule.c
+Python.h
+-
+../src/mem.h
+/user/7/volandd/Documents/2A/SEPC/tp1alloc/src/mem.h
+

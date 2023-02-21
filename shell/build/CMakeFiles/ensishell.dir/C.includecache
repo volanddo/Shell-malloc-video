@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lelouerad/Documents/2A/SEPC/TP 2 Shell/src/ensishell.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+errno.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+signal.h
+-
+variante.h
+/home/lelouerad/Documents/2A/SEPC/TP 2 Shell/src/variante.h
+readcmd.h
+/home/lelouerad/Documents/2A/SEPC/TP 2 Shell/src/readcmd.h
+libguile.h
+-
+
+/home/lelouerad/Documents/2A/SEPC/TP 2 Shell/src/readcmd.h
+variante.h
+/home/lelouerad/Documents/2A/SEPC/TP 2 Shell/src/variante.h
+unistd.h
+-
+sys/types.h
+-
+readline/readline.h
+-
+readline/history.h
+-
+
+/home/lelouerad/Documents/2A/SEPC/TP 2 Shell/src/variante.h
+
